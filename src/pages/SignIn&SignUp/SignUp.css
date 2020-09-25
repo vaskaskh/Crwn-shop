@@ -1,0 +1,59 @@
+
+.signUp--form{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;   
+}
+.signUp--text{
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+}
+.signUp--lbl{
+    font-family: 'Arvo', serif;
+    
+}
+.input--option{
+    max-width: 500px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.input--option:focus{
+    transform: scale(1.07);
+}
+
+.input--option:hover{
+    border-bottom: 1px solid rgba(55, 0, 255, 0.788);
+
+}
+
+
+
+.signUp--btn{
+    max-width: 105px;
+    padding: 13px;
+    cursor: pointer;
+    background-color: rgba(54, 44, 41, 0.911);
+    border: black;
+    color: white;
+    border-radius: 20px 20px;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+
+}
+
+.signUp--btn:hover{
+    color: black;
+    transform: scale(1.04)
+}
+.signUp--btn:active{
+    transform: scale(0.96)
+}

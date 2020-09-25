@@ -1,0 +1,11 @@
+.Auth--Homepage{
+
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+
+    & :first-child{
+        margin-right:150px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,26 @@
+.header--img{
+    height: 8vh;
+    
+}
+
+.Header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+        &-right{
+            &-option{
+                font-size: 19.5px;
+                font-family: courgette;
+
+                font-weight: 100;
+                color: black;
+                margin-left: 17.5px;
+                text-transform: uppercase;
+                outline: none;
+                text-decoration: none;
+            }
+        }
+}
+

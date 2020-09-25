@@ -1,0 +1,51 @@
+
+.signIn--form{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;   
+}
+.signIn--text{
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+}
+.signIn--lbl{
+    font-family: 'Arvo', serif;
+    
+}
+.input--option{
+    max-width: 500px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 7.5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.input--option:focus{
+    transform: scale(1.07);
+}
+
+.input--option:hover{
+    border-bottom: 1px solid rgba(55, 0, 255, 0.788);
+}
+.signIn--btn{
+    padding: 13px;
+    cursor: pointer;
+    border: black;
+    background-color: rgba(0, 110, 236, 0.781);
+    color: white;
+    border-radius: 20px 20px;
+    outline: none;
+    margin-right: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+}
+
+.signIn--btn:hover{
+    color:black;
+    transform: scale(1.04);
+}
+.signIn--btn:active{
+    transform: scale(0.96)
+}
+

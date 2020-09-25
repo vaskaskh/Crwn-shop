@@ -1,0 +1,83 @@
+.collection-item {
+  min-width: 22%;
+
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  position: relative;
+  margin: 30px;
+
+    &-btn{
+      width: 90%;
+      opacity: 0.6;
+      position: absolute;
+      top: 250px;
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 16px;
+      cursor: pointer;
+      &:hover{
+        opacity: 1.3; 
+        transform: scale(1.06);        
+    }
+    &:active{
+      opacity: 1.1;
+      transform: scale(0.97);
+    }
+  }
+  .image {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+  }
+  .collection-footer {
+    width: 90%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    .name {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+    .price {
+      width: 10%;
+    }
+  }
+}
+
+.collection-item:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.add--to--cart--btn{
+  outline: none;
+  text-decoration: none;
+  opacity: 0.7;
+  position: absolute;
+  top: 255px;
+  color: white;
+  padding: 15px;
+  background-color: black;
+  border: black;
+  cursor:pointer;
+  width: 80%;
+}
+
+.add--to--cart--btn:hover{
+color: black;
+background-color: white;
+border: 1px solid black;
+cursor:pointer;
+
+}
+.add--to--cart--btn:active{
+transform: scale(0.9);
+color: black;
+background-color: white;
+border: 1px solid black;
+cursor:pointer;
+}
